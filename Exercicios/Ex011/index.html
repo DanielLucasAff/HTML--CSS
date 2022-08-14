@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <title>Midías em HTML5</title>
+  </head>
+  <body>
+    <h1><em>Imagens dinâmicas</em></h1>
+    <p>
+      Tente abrir esse site em vários dispositivos diferentes ou simplismente
+      aumente e diminua o tamanho do seu navegador.
+    </p>
+    <picture>
+      <source
+        media="(max-width: 750px)"
+        srcset="imagens/img-p.png"
+        type="image/png"
+      />
+      <source
+        media="(max-width: 1050px)"
+        srcset="imagens/img-m.png"
+        type="image/png"
+      />
+      <img src="imagens/img-g.png" alt="Imagem interativa" />
+    </picture>
+    <p>Esses somos nós &#x1F495;</p>
+    <picture>
+      <source
+        media="(max-width: 550px)"
+        srcset="imagens/nos-300.jpg"
+        type="image/jpg"
+      />
+      <source
+        media="(max-width: 850px)"
+        srcset="imagens/nos-500.jpg"
+        type="image/jpg"
+      />
+      <source
+        media="(max-width: 1050px)"
+        srcset="imagens/nos-800.jpg"
+        type="image/jpg"
+      />
+      <img src="imagens/nos-1000.jpg" alt="Meu amor" />
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/Retribution - NEFFEX.mp3" controls autoplay></audio>
+    <!-- MP3 WAV OGG-->
+    <audio preload="metadata" autoplay controls loop>
+      <source src="midia/Retribution - NEFFEX.mp3" type="audio/mpeg" />
+      <p>
+        Infelizmente seu navegador não consegue reproduzir o áudio
+        <a href="midia/Retribution - NEFFEX.mp3"
+          >clique aqui para baixar o áudio</a
+        >
+      </p>
+    </audio>
+  </body>
+</html>

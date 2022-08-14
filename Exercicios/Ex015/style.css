@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+  background-color: rgb(148, 230, 202);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+h1 {
+  background-color: rgb(110, 255, 73);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: chocolate;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(195, 166, 0);
+  text-align: left;
+}
+
+p {
+  color: aliceblue;
+  text-align: justify;
+}

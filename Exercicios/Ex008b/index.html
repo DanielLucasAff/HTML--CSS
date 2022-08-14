@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      mark {
+        background-color: rgb(191, 255, 0);
+      }
+    </style>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Outras formatações</h1>
+    <h2>Codígo-fonte / Pré-formatação</h2>
+    <p>
+      O comando
+      <code
+        ><mark><ins>document.getElementById('teste')</ins></mark></code
+      >
+      é escrito em linguagem <strong><i>Javascript</i></strong>
+    </p>
+    <!--tag code gera a fonto mono-espassada-->
+    <code>
+      num = int(input('digite um número')) if num % 2 == 0: print(f'O número
+      {num} é PAR') else: print(f'O número {num} é IMPAR') print('fim do
+      Programa') </code
+    ><!--sem formatação-->
+    <pre>
+      <code>
+  num = int(input('digite um número'))
+  if num % 2 == 0:
+      print(f'O número {num} é PAR')
+  else:
+      print(f'O número {num} é IMPAR')
+  print('fim do Programa')
+      </code>
+    </pre>
+    <!--tag pre, faz a formatação automatica do codigo--><!--shift + tab, possibilita recuar o texto ou codigo-->
+    <h2>Citações simples</h2>
+    <p>
+      Como diria o pai de um amigo meu:<q
+        ><mark>O computador é um burro muito rápido.</mark></q
+      >
+    </p>
+    <!--a tag q, coloca as aspas e da sentido a citação-->
+    <h2>Citações completas</h2>
+    <p>
+      Segundo o autor<i>
+        <strong><ins>Thiago Nigro</ins></strong></i
+      >
+      em seu <q><mark>livro Do Mil ao Milhão.</mark></q>
+    </p>
+    <blockquote
+      cite="https://play.google.com/store/books/details/Thiago_Nigro_Do_mil_ao_milh%C3%A3o?id=4LZwDwAAQBAJ"
+    >
+      <ins
+        >Se você deseja aumentar seu patrimônio através de estratégias de
+        investimento, mas ainda não sabe que ferramentas usar ou como fazer
+        isso, a leitura deste livro é um excelente passo para iniciar essa
+        jornada de enriquecimento sábio e continuo.</ins
+      >
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>
+      Estou estudando
+      <abbr title="HyperText Markup Language"
+        ><i
+          ><code
+            ><mark style="background-color: rgb(199, 56, 231)">
+              <strong>HTML5</strong></mark
+            ></code
+          ></i
+        ></abbr
+      >
+      e
+      <abbr title="Cascading Style Sheets"
+        ><code
+          ><mark style="background-color: rgb(0, 247, 255)"
+            ><strong>CSS</strong></mark
+          ></code
+        ></abbr
+      >, com o
+      <strong
+        ><mark style="background-color: rgb(115, 250, 113)"
+          >Profº Guanabára</mark
+        ></strong
+      >
+    </p>
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML5</bdo></p>
+    <!--ltr escrita normal, rtl escrta invertida-->
+  </body>
+</html>

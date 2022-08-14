@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+  background-image: linear-gradient(to right, pink, rgb(255, 53, 53));
+}
+
+main {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgb(255, 6, 238);
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+}
+
+h1,
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px 0 rgba(0, 4, 255, 0.453);
+  color: #000;
+}
+
+p {
+  text-align: justify;
+}
